@@ -1,2 +1,20 @@
-# multireach-application
-aims to unify these disparate messaging channels into a single, accessible web interface that mimics real-world SaaS CRM workflows. This prototype focuses on delivering a fluid user experience enhanced by interactive animations, strict input validation, and simulated backend logic—making it ideal for team-based engagement scenarios
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1I61480luRyi3Cmas-_f5KHTQBXuWtTLN
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
